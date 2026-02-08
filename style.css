@@ -47,3 +47,17 @@ button {
 button:hover {
   background: #ff1e56;
 }
+.photos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.gf-photo {
+  width: 90px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
